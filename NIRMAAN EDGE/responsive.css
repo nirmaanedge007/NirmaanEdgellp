@@ -1,0 +1,302 @@
+@media(max-width:991px){
+
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+}
+
+
+.contact-form{
+
+padding:25px;
+
+}
+
+
+}
+
+
+@media(max-width:600px){
+
+
+.map iframe{
+
+height:300px;
+
+}
+
+
+.contact-card i{
+
+font-size:30px;
+
+}
+
+
+}
+
+
+@media(max-width:991px){
+
+.footer-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+
+@media(max-width:600px){
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+}
+
+
+.footer-bottom{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+
+.newsletter{
+
+flex-direction:column;
+
+}
+
+
+.newsletter input,
+.newsletter button{
+
+width:100%;
+
+}
+
+}
+
+
+
+
+/* ==========================
+   Small Tablet (768px)
+========================== */
+
+@media (max-width:768px){
+
+.website-service{
+    padding:60px 20px;
+}
+
+.website-box{
+    padding:35px 25px;
+    border-radius:18px;
+}
+
+.website-box i{
+    font-size:55px;
+}
+
+.website-box h3{
+    font-size:25px;
+}
+
+.website-box p{
+    font-size:15px;
+    line-height:1.8;
+}
+
+.website-btn{
+    width:100%;
+    max-width:320px;
+    padding:15px;
+    font-size:15px;
+}
+
+}
+
+
+/* ==========================
+   Mobile (576px)
+========================== */
+
+@media (max-width:576px){
+
+.website-service{
+    padding:50px 15px;
+}
+
+.website-box{
+    padding:30px 20px;
+    border-radius:15px;
+}
+
+.website-box i{
+    font-size:48px;
+}
+
+.website-box h3{
+    font-size:22px;
+}
+
+.website-box p{
+    font-size:14px;
+    line-height:1.7;
+}
+
+.website-btn{
+    width:100%;
+    font-size:15px;
+    padding:14px;
+}
+
+.website-btn i{
+    font-size:20px;
+}
+
+}
+
+
+/* ==========================
+   Extra Small Mobile (360px)
+========================== */
+
+@media (max-width:360px){
+
+.website-box{
+    padding:25px 15px;
+}
+
+.website-box h3{
+    font-size:20px;
+}
+
+.website-box p{
+    font-size:13px;
+}
+
+.website-btn{
+    font-size:14px;
+    padding:13px;
+}
+
+}
+
+
+
+/* ==========================
+   Large Laptop (1400px)
+========================== */
+
+@media (max-width:1400px){
+
+.website-service{
+    padding:80px 7%;
+}
+
+.website-box{
+    max-width:800px;
+}
+
+}
+
+
+/* ==========================
+   Laptop (1200px)
+========================== */
+
+@media (max-width:1200px){
+
+.website-service{
+    padding:70px 6%;
+}
+
+.website-box{
+    max-width:750px;
+    padding:45px 35px;
+}
+
+.website-box h3{
+    font-size:32px;
+}
+
+}
+
+
+/* ==========================
+   Tablet (992px)
+========================== */
+
+@media (max-width:992px){
+
+.website-service{
+    padding:70px 5%;
+}
+
+.website-box{
+    padding:40px 30px;
+}
+
+.website-box i{
+    font-size:60px;
+}
+
+.website-box h3{
+    font-size:28px;
+}
+
+.website-box p{
+    font-size:16px;
+}
+
+.website-btn{
+    padding:14px 30px;
+    font-size:16px;
+}
+
+}
+
+
+
+
+@media (max-width:600px){
+
+.experience{
+    right:10px;
+    bottom:10px;
+    padding:15px;
+}
+
+.experience h2{
+    font-size:28px;
+}
+
+.experience p{
+    font-size:13px;
+}
+
+}
+
+
+
+@media (max-width:360px){
+
+.logo{
+    font-size:22px;
+}
+
+}
+
+
+
+
+
