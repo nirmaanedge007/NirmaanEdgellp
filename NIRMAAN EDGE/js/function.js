@@ -1,12 +1,17 @@
-const menu=document.querySelector(".menu");
+const menu = document.querySelector(".menu");
 
-const nav=document.querySelector(".nav-links");
+const nav = document.querySelector(".nav-links");
 
-menu.onclick=()=>{
+menu.onclick = () => {
+    nav.classList.toggle("active");
+};
 
-nav.classList.toggle("active");
-
-}
+// Navbar link par click karte hi menu close
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+        nav.classList.remove("active");
+    });
+});
 
 
 /* Loader */
