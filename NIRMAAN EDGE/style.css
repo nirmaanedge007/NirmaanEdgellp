@@ -3389,3 +3389,103 @@ padding:15px;
         height: 260px;
     }
 }
+
+
+
+
+/* ===== WEBSITE SERVICE OVERRIDE ===== */
+
+.website-service {
+    padding: 30px 15px !important;
+}
+
+.website-service .section-title {
+    margin-bottom: 18px !important;
+}
+
+.website-service .section-title h5 {
+    margin-bottom: 5px !important;
+    font-size: 12px !important;
+}
+
+.website-service .section-title h2 {
+    font-size: 25px !important;
+    margin-bottom: 6px !important;
+}
+
+.website-service .section-title p {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+}
+
+.website-box {
+    max-width: 400px !important;
+    padding: 20px 18px !important;
+    margin: 0 auto !important;
+}
+
+.website-box > i {
+    font-size: 35px !important;
+    margin-bottom: 6px !important;
+}
+
+.website-box h3 {
+    font-size: 18px !important;
+    margin-bottom: 8px !important;
+}
+
+.website-box p {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 14px !important;
+}
+
+.website-btn {
+    padding: 9px 15px !important;
+    font-size: 13px !important;
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 600px) {
+
+    .website-service {
+        padding: 22px 12px !important;
+    }
+
+    .website-service .section-title {
+        margin-bottom: 14px !important;
+    }
+
+    .website-service .section-title h2 {
+        font-size: 22px !important;
+    }
+
+    .website-service .section-title p {
+        font-size: 12px !important;
+    }
+
+    .website-box {
+        padding: 16px 14px !important;
+        border-radius: 12px !important;
+    }
+
+    .website-box > i {
+        font-size: 32px !important;
+    }
+
+    .website-box h3 {
+        font-size: 17px !important;
+    }
+
+    .website-box p {
+        font-size: 12px !important;
+        line-height: 1.45 !important;
+    }
+
+    .website-btn {
+        padding: 8px 13px !important;
+        font-size: 12px !important;
+    }
+}
